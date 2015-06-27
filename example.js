@@ -1,10 +1,3 @@
-# rocky-vhost
-
-`vhost` based routing middleware usage example using [rocky](https://github.com/h2non/rocky) + [connect](https://github.com/senchalabs/connect)
-
-## Usage
-
-```js
 var connect = require('connect')
 var rocky = require('rocky')
 var vhost = require('vhost')
@@ -48,8 +41,3 @@ target2.listen(3002)
 target2.use(function (res, res) {
   res.end('Hello from target server 2')
 })
-```
-
-## License
-
-MIT

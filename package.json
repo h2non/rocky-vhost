@@ -1,0 +1,9 @@
+{
+  "name": "rocky-vhost",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.4.0",
+    "rocky": "^0.1.2",
+    "vhost": "^3.0.0"
+  }
+}
