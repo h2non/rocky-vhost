@@ -23,9 +23,7 @@ var mailapp = connect()
 mailapp.use(mailproxy.middleware())
 
 var usersapp = connect()
-usersapp.use(function (req, res, next) {
-  usersproxy.middleware()(req, res, next)
-})
+usersapp.use(usersproxy.middleware())
 
 // create main app
 var app = connect()
